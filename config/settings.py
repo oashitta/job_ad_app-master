@@ -188,7 +188,7 @@ class Staging(Common):
     The in-staging settings.
     """
     DEBUG = False
-    ALLOWED_HOSTS = ['job-advert.herokuapp.com']
+    ALLOWED_HOSTS = ['mot-job-advert.herokuapp.com']
     # Security
     SESSION_COOKIE_SECURE = values.BooleanValue(True)
     SECURE_BROWSER_XSS_FILTER = values.BooleanValue(True)
